@@ -1,0 +1,13 @@
+.logo {
+  margin-left: 120px;
+  font-weight: 400;
+  &::before {
+    content: "";
+    margin-right: 10px;
+    height: 20px;
+    width: 20px;
+    background-color: #ff478b;
+    border-radius: 50%;
+    display: inline-block;
+  }
+}

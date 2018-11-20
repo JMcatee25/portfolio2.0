@@ -1,0 +1,9 @@
+.pink {
+  background-clip: #ff478b;
+  background: -webkit-linear-gradient(#ff478b, #c347ff);
+  background: -o-linear-gradient(right, #ff478b, #c347ff);
+  background: -moz-linear-gradient(right, #ff478b, #c347ff);
+  background: linear-gradient(60deg, #ff478b 0%, #c347ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

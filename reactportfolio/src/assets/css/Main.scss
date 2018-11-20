@@ -1,0 +1,76 @@
+@import "./partials/mixins.scss";
+@import "./partials/normalize.scss";
+@import "./partials/logo.scss";
+@import "./partials/helpers.scss";
+@import "./partials/buttons.scss";
+@import "./partials/about.scss";
+@import "./partials/herotext.scss";
+@import "./partials/projects.scss";
+@import "./partials/header.scss";
+@import "./partials/aside.scss";
+@import "./partials/contact.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(#1f2839, #0f141e);
+  color: white;
+  font-family: "Avenir", sans-serif;
+  .colorimg {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    height: 98%;
+    width: 70%;
+    z-index: -1;
+  }
+  hr {
+    margin-bottom: 20px;
+    border-radius: 100%;
+    width: 85%;
+    opacity: 0.7;
+  }
+}
+
+.herosection {
+  height: 91vh;
+  width: 99%;
+  .herotextcontainer {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .colorimg {
+    display: none;
+  }
+  .asidecontainer {
+    display: none;
+  }
+  .herotext {
+    margin: 100px 0 0 50px;
+  }
+  .clearButton {
+    margin-left: 20px;
+    letter-spacing: 0;
+  }
+  .pinkButton {
+    margin-left: 20px;
+  }
+  .aboutsection {
+    height: 80vh;
+    width: 92%;
+    margin: 0 auto;
+  }
+  .singleproject {
+    margin-left: 10px;
+    .projecttext {
+      max-width: 200px;
+    }
+  }
+  .slidercontainer {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,52 @@
+.singleproject {
+  display: flex;
+  letter-spacing: 1px;
+  margin: 50px 0 100px 120px;
+  align-items: center;
+  .projecttext {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    max-width: 420px;
+    align-items: center;
+  }
+  .projecttitle {
+    text-align: center;
+    width: 100px;
+  }
+  .projectcaption {
+    margin-left: 30px;
+  }
+}
+
+.projectlinks {
+  width: 50%;
+  .projectimgs {
+    border-radius: 7px;
+    width: 100%;
+    opacity: 0.2;
+    transition: opacity 0.25s ease-in-out;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.slidercontainer {
+  width: 50%;
+  margin: 50px auto;
+  border-radius: 7px;
+  .sliderimgs {
+    width: 100%;
+    border-radius: 7px;
+  }
+  .slidercaptions {
+    text-align: center;
+  }
+}
+.slick-slide {
+  opacity: 0.1;
+}
+.slick-current {
+  opacity: 0.7;
+}

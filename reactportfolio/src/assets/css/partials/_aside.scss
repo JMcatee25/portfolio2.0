@@ -1,0 +1,43 @@
+.asidecontainer {
+  position: fixed;
+  z-index: 4;
+  margin-top: 160px;
+  .scrolltracker {
+    margin-left: 40px;
+    list-style: circle;
+    margin-bottom: 150px;
+    li {
+      cursor: pointer;
+      font-size: 24px;
+      padding: 10px;
+    }
+    .current {
+      list-style: initial;
+    }
+  }
+
+  .sociallinks {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    li {
+      margin: 5px 0;
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+    }
+    .github {
+      background-color: white;
+      border-radius: 100%;
+    }
+    img {
+      fill: blue;
+      margin-left: 10px;
+      height: 24px;
+      width: 24px;
+    }
+    .emailbutton {
+      cursor: pointer;
+    }
+  }
+}

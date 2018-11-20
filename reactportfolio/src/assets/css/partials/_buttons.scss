@@ -1,0 +1,39 @@
+.pinkButton {
+  z-index: 2;
+  margin-top: 32px;
+  border: none;
+  text-transform: uppercase;
+  padding: 10px 55px;
+  background-color: #ff478b;
+  border-radius: 25px;
+  transition: transform 0.2s;
+  color: white;
+  font-weight: 400;
+  outline: none;
+  letter-spacing: 2px;
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 7px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.clearButton {
+  z-index: 2;
+  margin-top: 32px;
+  margin-left: 20px;
+  border: 1px solid #ff478b;
+  border-radius: 25px;
+  text-transform: uppercase;
+  background-color: #1f2839;
+  color: white;
+  transition: transform 0.2s;
+  padding: 10px 55px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  outline: none;
+
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 2px 7px 2px 1px rgba(0, 0, 0, 0.2);
+  }
+}
